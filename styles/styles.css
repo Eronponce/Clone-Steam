@@ -1,0 +1,49 @@
+.head {
+    background-color: chartreuse;
+}
+
+.content {
+    background-color: cornflowerblue;
+    display: flexbox;
+    width: 80%;
+}
+
+.sidebar {
+    background-color: cadetblue;
+    display: flex;
+    width: 20%;
+}
+
+.footer {
+    background-color: coral;
+}
+
+main, header, section, aside, footer,.game,.game2,.game3,.game4,.promotion,.catalogue {
+    margin: 2px;
+    padding: 20px;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+.mainbox {
+    display: flex;
+}
+
+.game {
+    display: flex;
+    width: 80%;
+}
+
+.promotion {
+    display: flex;
+    width: 80%;
+}
+
+.catalogue {
+    display: flex;
+    width: 80%;
+}
+
+.game1, .game2, .game3, .game4 {
+    display: flex;
+}
