@@ -1,27 +1,31 @@
+body{
+    background-color: rgb(68, 65, 65);
+}
 .head {
-    background-color: chartreuse;
+    background-color: rgb(21, 20, 20);
+    height: 100px;
+    
 }
 
 .content {
-    background-color: cornflowerblue;
+    background-color: rgb(58, 78, 116);
     display: flexbox;
     width: 80%;
 }
 
 .sidebar {
-    background-color: cadetblue;
+    background-color: rgb(41, 76, 77);
     display: flex;
     width: 20%;
 }
 
 .footer {
-    background-color: coral;
+    background-color: rgb(21, 20, 20);
 }
 
 main, header, section, aside, footer,.game,.game2,.game3,.game4,.promotion,.catalogue {
-    margin: 2px;
-    padding: 20px;
-    border: 1px solid #000000;
+
+    
     color: #ffffff;
 }
 
@@ -46,4 +50,22 @@ main, header, section, aside, footer,.game,.game2,.game3,.game4,.promotion,.cata
 
 .game1, .game2, .game3, .game4 {
     display: flex;
+}
+
+.topright{
+    position: absolute;
+  top: 8px;
+  right: 10%;
+  font-size: 14px;
+}
+.middle{
+    position:absolute;
+    top: 40px;
+    left:20%;
+}
+.middletext{
+    position:absolute;
+    top: 55px;
+    left:37%;
+    font-size: 14px;
 }
