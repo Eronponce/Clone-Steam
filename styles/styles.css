@@ -1,71 +1,106 @@
-body{
-    background-color: rgb(68, 65, 65);
+body {
+  background-color: rgb(68, 65, 65);
 }
 .head {
-    background-color: rgb(21, 20, 20);
-    height: 100px;
-    
+  background-color: rgb(21, 20, 20);
+  height: 100px;
+}
+.search {
+  display: flex;
+}
+.searchbar {
+  color: grey;
+  top: 130px;
+  width: auto;
+  text-align: center;
+  left: 30%;
+  background-color: rgba(91, 91, 220, 0.679);
+  position: absolute;
 }
 
 .content {
-    background-color: rgb(58, 78, 116);
-    display: flexbox;
-    width: 80%;
+  background-color: rgb(58, 78, 116);
+  display: flexbox;
+  width: 80%;
 }
 
 .sidebar {
-    background-color: rgb(41, 76, 77);
-    display: flex;
-    width: 20%;
+  background-color: rgb(41, 76, 77);
+  display: flex;
+  width: 20%;
 }
 
 .footer {
-    background-color: rgb(21, 20, 20);
+  background-color: rgb(21, 20, 20);
 }
 
-main, header, section, aside, footer,.game,.game2,.game3,.game4,.promotion,.catalogue {
-
-    
-    color: #ffffff;
+main,
+header,
+section,
+aside,
+footer,
+.game,
+.game2,
+.game3,
+.game4,
+.promotion,
+.catalogue,
+.searchbar {
+  color: #ffffff;
 }
 
 .mainbox {
-    display: flex;
+  display: flex;
 }
 
 .game {
-    display: flex;
-    width: 80%;
+  display: flex;
+  width: 80%;
 }
 
 .promotion {
-    display: flex;
-    width: 80%;
+  display: flex;
+  width: 80%;
 }
 
 .catalogue {
-    display: flex;
-    width: 80%;
+  display: flex;
+  width: 80%;
 }
 
-.game1, .game2, .game3, .game4 {
-    display: flex;
+.game1,
+.game2,
+.game3,
+.game4 {
+  display: flex;
 }
 
-.topright{
-    position: absolute;
+.topright {
+  position: absolute;
   top: 8px;
   right: 10%;
   font-size: 14px;
 }
-.middle{
-    position:absolute;
-    top: 40px;
-    left:20%;
+.middle {
+  position: absolute;
+  top: 40px;
+  left: 20%;
 }
-.middletext{
-    position:absolute;
-    top: 55px;
-    left:37%;
-    font-size: 14px;
+.middletext {
+  position: absolute;
+  top: 55px;
+  left: 37%;
+  font-size: 14px;
+}
+.right {
+  right: 0%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.buttonsearch:hover{
+  color: #ffffff;
+  background-color: rgb(162, 162, 230);
 }
