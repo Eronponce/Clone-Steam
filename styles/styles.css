@@ -1,21 +1,24 @@
 body {
   background-color: rgb(68, 65, 65);
+  margin: 0;
 }
 .head {
-  background-color: rgb(21, 20, 20);
-  height: 100px;
+  background-color: #171a21;
+  height: 110px;
 }
 .search {
   display: flex;
 }
 .searchbar {
+  font-size: 16px;
   color: grey;
   top: 130px;
   width: auto;
   text-align: center;
   left: 30%;
-  background-color: rgba(91, 91, 220, 0.679);
+  background-color: rgba(68, 72, 138, 0.679);
   position: absolute;
+  padding: 5px;
 }
 
 .content {
@@ -25,9 +28,10 @@ body {
 }
 
 .sidebar {
-  background-color: rgb(41, 76, 77);
-  display: flex;
-  width: 20%;
+  margin-left: 210px;
+  align-self: center;
+  width: 180px;
+  height: auto;
 }
 
 .footer {
@@ -50,12 +54,14 @@ footer,
 }
 
 .mainbox {
-  display: flex;
+  background-color: #1b2838;
+  height: auto;
 }
 
 .game {
   display: flex;
   width: 80%;
+  height: auto;
 }
 
 .promotion {
@@ -80,6 +86,7 @@ footer,
   top: 8px;
   right: 10%;
   font-size: 14px;
+  margin-right: 300px;
 }
 .middle {
   position: absolute;
@@ -94,13 +101,26 @@ footer,
 }
 .right {
   right: 0%;
+  background-color: rgba(127, 127, 175, 0.521);
+  color: white;
 }
 
-a{
+.searchbar > a {
   text-decoration: none;
+  padding-inline: 10px;
 }
-
-.buttonsearch:hover{
+.buttonsearch {
+  color: rgb(218, 214, 214);
+}
+.buttonsearch:hover {
   color: #ffffff;
   background-color: rgb(162, 162, 230);
+}
+.install {
+  background-color: green;
+}
+.sidebar > a{
+  color: #66c0f4;
+  text-decoration: none;
+  
 }
