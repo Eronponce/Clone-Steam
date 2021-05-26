@@ -122,5 +122,6 @@ footer,
 .sidebar > a{
   color: #66c0f4;
   text-decoration: none;
-  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
 }
