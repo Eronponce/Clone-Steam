@@ -23,13 +23,11 @@ body {
 
 .content {
   background-color: rgb(58, 78, 116);
-  display: flexbox;
-  width: 80%;
+  display:table-cell;
 }
 
 .sidebar {
   margin-left: 210px;
-  align-self: center;
   width: 180px;
   height: auto;
 }
@@ -55,6 +53,7 @@ footer,
 
 .mainbox {
   background-color: #1b2838;
+  display: flex;
   height: auto;
 }
 
@@ -119,7 +118,7 @@ footer,
 .install {
   background-color: green;
 }
-.sidebar > a{
+.sidebar > a {
   color: #66c0f4;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
