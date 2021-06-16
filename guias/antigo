@@ -1,0 +1,192 @@
+<header class="head">
+    <div class="topright">
+      <a>
+        <button class="install">instalar a steam</button>
+      </a>
+      <a>
+        iniciar sessão
+      </a>
+      |
+      <a>
+        idioma
+      </a>
+    </div>
+    <div class="middle">
+      <a>
+        <img src="../images/steam.png" width="200px" />
+      </a>
+    </div>
+    <div class="middletext">
+      <a>
+        LOJA
+      </a>
+
+      <a>
+        COMUNIDADE
+      </a>
+
+      <a>
+        SOBRE
+      </a>
+
+      <a>
+        SUPORTE
+      </a>
+    </div>
+  </header>
+
+  <div class="search">
+    <video width="100%" loop autoplay muted >
+      <source src="../images/mp4_page_bg_english.mp4" type="video/mp4" width="100%"></video> 
+    </video>
+  
+<header>
+  <div class="container">
+<div class="row">
+<div class="col ">
+Instale o Steam 
+
+iniciar sessão 
+
+
+|
+
+
+idioma
+
+
+</div>
+</div>
+</div>
+
+
+
+    <div class="searchbar">
+      <a href="" class="buttonsearch"> Your Store </a>
+      <a href="" class="buttonsearch"> New & Noteworthy</a>
+      <a href="" class="buttonsearch"> Categories </a>
+      <a href="" class="buttonsearch"> Points Shop</a>
+      <a href="" class="buttonsearch"> News </a>
+      <a href="" class="buttonsearch"> Labs</a>
+      <input type="text" placeholder="search" class="right" />
+    </div>
+  </div>
+
+  <div class="mainbox">
+    <aside class="sidebar">
+      <img width="200px" src="../images/steamcards_promo_02.png" alt="Steam promo cards">
+      <br>
+      <p>GIFT CARDS</p>
+      <br>
+      <a href="">Now available on Steam</a>
+      <br>
+      <p>RECOMENDED</p>
+      <br>
+      <a href=""><img src="" alt="">By Friends</a>
+      <br>
+      <a href=""><img src="" alt="">By Curators</a>
+      <br>
+      <a href=""><img src="" alt="">Tags</a>
+      <br>
+      <p>DISCOVERY QUEUES</p>
+      <br>
+      <a href=""><img src="" alt="">Recommendations</a>
+      <br>
+      <a href=""><img src="" alt="">New Releases</a>
+      <br>
+      <p>BROWSE CATEGORIES</p>
+      <br>
+      <a href=""><img src="" alt="">Top Sellers</a>
+      <br>
+      <a href=""><img src="" alt="">New Releases</a>
+      <br>
+      <a href=""><img src="" alt="">Upcoming</a>
+      <br>
+      <a href=""><img src="" alt="">Specials</a>
+      <br>
+      <a href=""><img src="" alt="">Virtual Reality</a>
+      <br>
+      <a href=""><img src="" alt="">Controller Friendly</a>
+      <br>
+      <p>BROWSE BY GENRE</p>
+      <br>
+      <a href="">Free to Play</a>
+      <br>
+      <a href="">Early Access</a>
+      <br>
+      <a href="">Action</a>
+      <br>
+      <a href="">Adventure</a>
+      <br>
+      <a href="">Casual</a>
+      <br>
+      <a href="">Indie</a>
+      <br>
+      <a href="">Massively Multiplayer</a>
+      <br>
+      <a href="">Racing</a>
+      <br>
+      <a href="">RPG</a>
+      <br>
+      <a href="">Simulation</a>
+      <br>
+      <a href="">Sprorts</a>
+      <br>
+      <a href="">Strategy</a>
+      <br>
+      <p>RECENTLY VIEWED</p>
+      <br>
+      <a href="">Garry's Mod</a>
+     
+
+
+
+
+
+
+    </aside>
+    <section class="content">
+      <div class="game">
+        game
+      </div>
+      <div class="promotion">
+        promotion
+      </div>
+      <div class="catalogue">
+        catalogue
+        <div class="game1">
+          game1
+        </div>
+        <div class="game2">
+          game2
+        </div>
+        <div class="game3">
+          game3
+        </div>
+        <div class="game4">
+          game4
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    footer
+  </footer>
+
+  <script src=""></script>
+
+
+</header>
+
+ 
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+  integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+  crossorigin="anonymous"></script>
+  
+  
+</body>
