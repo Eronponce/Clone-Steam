@@ -37,16 +37,32 @@ height:50px ;
   color: #d1d1d1;
   border-color: #171a21;
 }
+.navbar-steam{
+  background-color:rgba(86, 86, 184, 0.837);
+
+}
+li  a{
+  color: white;
+}
+li{
+  width: 150px;
+}
+
 .nav-search{
   height: 500px;
 }
+.navbar-steam{
+  position: absolute;
+  top: -450px;
+  left: 25%;
+}
+
 .bg_video{
 	position:absolute; 
+  top: 100px;
 	right: 0; 
 	bottom: 0;
-	height: 100%; 
-
-
+	width: 100%;
 	background-size: cover; 
 }
 .nav2{
